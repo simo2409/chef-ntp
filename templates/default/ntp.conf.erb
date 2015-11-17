@@ -1,0 +1,3 @@
+<%- node["ntp"]["servers"].each do |serv| -%>
+server <%= serv %>
+<%- end -%>
